@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Pod
 metadata:
-name: mysecondpod1e
+  name: mysecondpod1e
 spec:
-containers:
-	- name: firstcontainer
+  containers:
+    - name: firstcontainer
       image: nginx
