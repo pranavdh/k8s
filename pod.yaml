@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-clusterip
+  labels:
+    app: webserver
+  namespace: webns
+spec:
+  containers:
+    - name: nginxcontainer
+      image: nginx
